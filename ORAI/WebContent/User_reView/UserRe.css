@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+.main_top {
+		color: white;
+		background-color: #2A2A2A;
+		height: auto;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		padding-left: 50px;
+	}
+	.SM {
+		background-color: #FF6600;
+		color: white;
+		padding:8px 40px 8px 40px;
+		text-align: center;
+	}

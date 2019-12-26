@@ -1,0 +1,344 @@
+2019-07-17 16:50:54,709 DEBUG [main] pay.PayDao        (ReservationDao.java:55)     - 1.------------------
+2019-07-17 16:50:54,710 DEBUG [main] pay.PayDao        (ReservationDao.java:56)     - 1query
+  INSERT INTO reservation ( 
+  NO,                       
+  RCODE,                    
+  PHONE,                    
+  PNUM,                     
+  RNAME,                    
+  SDATE,                    
+  REG_DT,                   
+  EDATE                     
+  ) VALUES (                
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  sysdate,                  
+  ?                         
+  )                         
+
+2019-07-17 16:50:54,711 DEBUG [main] pay.PayDao        (ReservationDao.java:57)     - 1.------------------
+2019-07-17 16:50:54,782 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 16:50:54,982 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@75828a0f
+2019-07-17 16:50:55,028 DEBUG [main] pay.PayDao        (ReservationDao.java:68)     - 2.------------------
+2019-07-17 16:50:55,028 DEBUG [main] pay.PayDao        (ReservationDao.java:69)     - paramreservationVO [no=1001-101-100, rcode=1001-101, phone=010-5641-1235, pnum=6, rname=김도연, sdate=19/07/30, reg_dt=, edate=19/07/31]
+2019-07-17 16:50:55,028 DEBUG [main] pay.PayDao        (ReservationDao.java:70)     - 2.------------------
+2019-07-17 16:50:55,037 DEBUG [main] pay.PayDao        (ReservationDao.java:74)     - 3.------------------
+2019-07-17 16:50:55,037 DEBUG [main] pay.PayDao        (ReservationDao.java:75)     - flag1
+2019-07-17 16:50:55,037 DEBUG [main] pay.PayDao        (ReservationDao.java:76)     - 3.------------------
+2019-07-17 17:24:09,820 DEBUG [main] pay.PayDao        (ReservationDao.java:56)     - 1.------------------
+2019-07-17 17:24:09,822 DEBUG [main] pay.PayDao        (ReservationDao.java:57)     - 1query
+  INSERT INTO reservation ( 
+  NO,                       
+  RCODE,                    
+  PHONE,                    
+  PNUM,                     
+  RNAME,                    
+  SDATE,                    
+  REG_DT,                   
+  EDATE                     
+  ) VALUES (                
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  sysdate,                  
+  ?                         
+  )                         
+
+2019-07-17 17:24:09,822 DEBUG [main] pay.PayDao        (ReservationDao.java:58)     - 1.------------------
+2019-07-17 17:24:09,873 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:24:10,053 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@75828a0f
+2019-07-17 17:24:10,110 DEBUG [main] pay.PayDao        (ReservationDao.java:69)     - 2.------------------
+2019-07-17 17:24:10,110 DEBUG [main] pay.PayDao        (ReservationDao.java:70)     - paramreservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:24:10,110 DEBUG [main] pay.PayDao        (ReservationDao.java:71)     - 2.------------------
+2019-07-17 17:24:10,116 DEBUG [main] pay.PayDao        (ReservationDao.java:75)     - 3.------------------
+2019-07-17 17:24:10,116 DEBUG [main] pay.PayDao        (ReservationDao.java:76)     - flag1
+2019-07-17 17:24:10,116 DEBUG [main] pay.PayDao        (ReservationDao.java:77)     - 3.------------------
+2019-07-17 17:28:28,238 DEBUG [main] pay.PayDao        (ReservationDao.java:56)     - 1.------------------
+2019-07-17 17:28:28,240 DEBUG [main] pay.PayDao        (ReservationDao.java:57)     - 1query
+  INSERT INTO reservation ( 
+  NO,                       
+  RCODE,                    
+  PHONE,                    
+  PNUM,                     
+  RNAME,                    
+  SDATE,                    
+  REG_DT,                   
+  EDATE                     
+  ) VALUES (                
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  sysdate,                  
+  ?                         
+  )                         
+
+2019-07-17 17:28:28,240 DEBUG [main] pay.PayDao        (ReservationDao.java:58)     - 1.------------------
+2019-07-17 17:28:28,290 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:28:28,516 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@75828a0f
+2019-07-17 17:28:28,572 DEBUG [main] pay.PayDao        (ReservationDao.java:69)     - 2.------------------
+2019-07-17 17:28:28,572 DEBUG [main] pay.PayDao        (ReservationDao.java:70)     - paramreservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:28:28,572 DEBUG [main] pay.PayDao        (ReservationDao.java:71)     - 2.------------------
+2019-07-17 17:28:28,620 DEBUG [main] pay.PayDao        (ReservationDao.java:81)     - ------------------
+2019-07-17 17:28:28,621 DEBUG [main] pay.PayDao        (ReservationDao.java:82)     - SQLException:ORA-00001: 무결성 제약 조건(ORAI.PK_RESERVATION)에 위배됩니다
+
+2019-07-17 17:33:53,411 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:33:53,602 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:33:53,602 DEBUG [main] pay.PayDao        (ReservationDao.java:129)     - 1-----------------------------
+2019-07-17 17:33:53,603 DEBUG [main] pay.PayDao        (ReservationDao.java:130)     - query: 
+   SELECT                                           
+   NO,                                              
+   RCODE,                                           
+   PHONE,                                           
+   PNUM,                                            
+   RNAME,                                           
+   TO_CHAR(SDATE,'YYYY-MM-DD HH24:mi:ss') SDATE,   
+   TO_CHAR(REG_DT,'YYYY-MM-DD HH24:mi:ss') REG_DT,  
+   TO_CHAR(EDATE ,'YYYY-MM-DD HH24:mi:ss') EDATE    
+   FROM   board                                     
+   WHERE NO= ?								       
+
+2019-07-17 17:33:53,606 DEBUG [main] pay.PayDao        (ReservationDao.java:131)     - 1-----------------------------
+2019-07-17 17:33:53,662 DEBUG [main] pay.PayDao        (ReservationDao.java:136)     - 2-----------------------------
+2019-07-17 17:33:53,662 DEBUG [main] pay.PayDao        (ReservationDao.java:137)     - param seq:
+reservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:33:53,662 DEBUG [main] pay.PayDao        (ReservationDao.java:138)     - 2-----------------------------
+2019-07-17 17:33:53,668 DEBUG [main] pay.PayDao        (ReservationDao.java:154)     - 3============
+2019-07-17 17:33:53,668 DEBUG [main] pay.PayDao        (ReservationDao.java:155)     - SQLExceptionORA-00904: "NO": 부적합한 식별자
+
+2019-07-17 17:33:53,668 DEBUG [main] pay.PayDao        (ReservationDao.java:156)     - 3============
+2019-07-17 17:33:53,671 DEBUG [main] reservation.ReservationController (ReservationController.java:28)     - 
+2019-07-17 17:36:22,560 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:36:22,772 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:36:22,772 DEBUG [main] pay.PayDao        (ReservationDao.java:129)     - 1-----------------------------
+2019-07-17 17:36:22,773 DEBUG [main] pay.PayDao        (ReservationDao.java:130)     - query: 
+   SELECT                                           
+   NO,                                              
+   RCODE,                                           
+   PHONE,                                           
+   PNUM,                                            
+   RNAME,                                           
+   TO_CHAR(SDATE,'YYYY-MM-DD HH24:mi:ss') SDATE,   
+   TO_CHAR(REG_DT,'YYYY-MM-DD HH24:mi:ss') REG_DT,  
+   TO_CHAR(EDATE ,'YYYY-MM-DD HH24:mi:ss') EDATE    
+   FROM   board                                     
+   WHERE NO= ?								       
+
+2019-07-17 17:36:22,776 DEBUG [main] pay.PayDao        (ReservationDao.java:131)     - 1-----------------------------
+2019-07-17 17:36:22,834 DEBUG [main] pay.PayDao        (ReservationDao.java:136)     - 2-----------------------------
+2019-07-17 17:36:22,834 DEBUG [main] pay.PayDao        (ReservationDao.java:137)     - param seq:
+reservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:36:22,834 DEBUG [main] pay.PayDao        (ReservationDao.java:138)     - 2-----------------------------
+2019-07-17 17:36:22,839 DEBUG [main] pay.PayDao        (ReservationDao.java:154)     - 3============
+2019-07-17 17:36:22,839 DEBUG [main] pay.PayDao        (ReservationDao.java:155)     - SQLExceptionORA-00904: "NO": 부적합한 식별자
+
+2019-07-17 17:36:22,839 DEBUG [main] pay.PayDao        (ReservationDao.java:156)     - 3============
+2019-07-17 17:36:22,841 DEBUG [main] reservation.ReservationController (ReservationController.java:28)     - 
+2019-07-17 17:36:30,084 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:36:30,277 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:36:30,277 DEBUG [main] pay.PayDao        (ReservationDao.java:129)     - 1-----------------------------
+2019-07-17 17:36:30,277 DEBUG [main] pay.PayDao        (ReservationDao.java:130)     - query: 
+   SELECT                                           
+   NO,                                              
+   RCODE,                                           
+   PHONE,                                           
+   PNUM,                                            
+   RNAME,                                           
+   TO_CHAR(SDATE,'YYYY-MM-DD HH24:mi:ss') SDATE,   
+   TO_CHAR(REG_DT,'YYYY-MM-DD HH24:mi:ss') REG_DT,  
+   TO_CHAR(EDATE ,'YYYY-MM-DD HH24:mi:ss') EDATE    
+   FROM   board                                     
+   WHERE NO= ?								       
+
+2019-07-17 17:36:30,278 DEBUG [main] pay.PayDao        (ReservationDao.java:131)     - 1-----------------------------
+2019-07-17 17:36:30,324 DEBUG [main] pay.PayDao        (ReservationDao.java:136)     - 2-----------------------------
+2019-07-17 17:36:30,324 DEBUG [main] pay.PayDao        (ReservationDao.java:137)     - param seq:
+reservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:36:30,324 DEBUG [main] pay.PayDao        (ReservationDao.java:138)     - 2-----------------------------
+2019-07-17 17:36:30,330 DEBUG [main] pay.PayDao        (ReservationDao.java:154)     - 3============
+2019-07-17 17:36:30,330 DEBUG [main] pay.PayDao        (ReservationDao.java:155)     - SQLExceptionORA-00904: "NO": 부적합한 식별자
+
+2019-07-17 17:36:30,330 DEBUG [main] pay.PayDao        (ReservationDao.java:156)     - 3============
+2019-07-17 17:36:30,332 DEBUG [main] reservation.ReservationController (ReservationController.java:28)     - 
+2019-07-17 17:38:19,212 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:38:19,396 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:38:19,396 DEBUG [main] pay.PayDao        (ReservationDao.java:129)     - 1-----------------------------
+2019-07-17 17:38:19,396 DEBUG [main] pay.PayDao        (ReservationDao.java:130)     - query: 
+   SELECT                                           
+   no,                                              
+   recode,                                           
+   phone,                                           
+   pnum,                                            
+   rname,                                           
+   TO_CHAR(sdate,'YYYY-MM-DD HH24:mi:ss')sdate,   
+   TO_CHAR(reg_dt,'YYYY-MM-DD HH24:mi:ss')reg_dt,  
+   TO_CHAR(edate,'YYYY-MM-DD HH24:mi:ss')edate    
+   FROM  reservation                                    
+   WHERE NO= ?								       
+
+2019-07-17 17:38:19,398 DEBUG [main] pay.PayDao        (ReservationDao.java:131)     - 1-----------------------------
+2019-07-17 17:38:19,446 DEBUG [main] pay.PayDao        (ReservationDao.java:136)     - 2-----------------------------
+2019-07-17 17:38:19,447 DEBUG [main] pay.PayDao        (ReservationDao.java:137)     - param seq:
+reservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:38:19,447 DEBUG [main] pay.PayDao        (ReservationDao.java:138)     - 2-----------------------------
+2019-07-17 17:38:19,453 DEBUG [main] pay.PayDao        (ReservationDao.java:154)     - 3============
+2019-07-17 17:38:19,453 DEBUG [main] pay.PayDao        (ReservationDao.java:155)     - SQLExceptionORA-00904: "RECODE": 부적합한 식별자
+
+2019-07-17 17:38:19,453 DEBUG [main] pay.PayDao        (ReservationDao.java:156)     - 3============
+2019-07-17 17:38:19,455 DEBUG [main] reservation.ReservationController (ReservationController.java:28)     - 
+2019-07-17 17:38:37,079 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:38:37,287 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:38:37,287 DEBUG [main] pay.PayDao        (ReservationDao.java:129)     - 1-----------------------------
+2019-07-17 17:38:37,287 DEBUG [main] pay.PayDao        (ReservationDao.java:130)     - query: 
+   SELECT                                           
+   no,                                              
+   rcode,                                           
+   phone,                                           
+   pnum,                                            
+   rname,                                           
+   TO_CHAR(sdate,'YYYY-MM-DD HH24:mi:ss')sdate,   
+   TO_CHAR(reg_dt,'YYYY-MM-DD HH24:mi:ss')reg_dt,  
+   TO_CHAR(edate,'YYYY-MM-DD HH24:mi:ss')edate    
+   FROM  reservation                                    
+   WHERE NO= ?								       
+
+2019-07-17 17:38:37,289 DEBUG [main] pay.PayDao        (ReservationDao.java:131)     - 1-----------------------------
+2019-07-17 17:38:37,335 DEBUG [main] pay.PayDao        (ReservationDao.java:136)     - 2-----------------------------
+2019-07-17 17:38:37,335 DEBUG [main] pay.PayDao        (ReservationDao.java:137)     - param seq:
+reservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:38:37,335 DEBUG [main] pay.PayDao        (ReservationDao.java:138)     - 2-----------------------------
+2019-07-17 17:38:37,392 DEBUG [main] reservation.ReservationController (ReservationController.java:28)     - reservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=2019-06-30 00:00:00, reg_dt=2019-07-17 17:24:11, edate=2019-07-01 00:00:00]
+2019-07-17 17:44:30,580 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:44:30,779 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:44:30,779 DEBUG [main] pay.PayDao        (ReservationDao.java:114)     - 1-----------------------------
+2019-07-17 17:44:30,780 DEBUG [main] pay.PayDao        (ReservationDao.java:115)     - query:
+	DELETE FROM Reservation 
+	WHERE   no = ?   
+
+2019-07-17 17:44:30,783 DEBUG [main] pay.PayDao        (ReservationDao.java:116)     - 1-----------------------------
+2019-07-17 17:44:30,840 DEBUG [main] pay.PayDao        (ReservationDao.java:119)     - 2-----------------------------
+2019-07-17 17:44:30,840 DEBUG [main] pay.PayDao        (ReservationDao.java:120)     - param NO:
+reservationVO [no=1001-101-100, rcode=1001-101, phone=010-5641-1235, pnum=6, rname=김도연, sdate=19/07/30, reg_dt=, edate=19/07/31]
+2019-07-17 17:44:30,840 DEBUG [main] pay.PayDao        (ReservationDao.java:121)     - 2-----------------------------
+2019-07-17 17:44:30,845 DEBUG [main] pay.PayDao        (ReservationDao.java:125)     - 3======================
+2019-07-17 17:44:30,845 DEBUG [main] pay.PayDao        (ReservationDao.java:126)     - transaction=oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:44:30,845 DEBUG [main] pay.PayDao        (ReservationDao.java:127)     - 3======================
+2019-07-17 17:44:30,849 DEBUG [main] reservation.ReservationController (ReservationController.java:33)     - 1
+2019-07-17 17:45:05,103 DEBUG [main] pay.PayDao        (ReservationDao.java:56)     - 1.------------------
+2019-07-17 17:45:05,105 DEBUG [main] pay.PayDao        (ReservationDao.java:57)     - 1query
+  INSERT INTO reservation ( 
+  NO,                       
+  RCODE,                    
+  PHONE,                    
+  PNUM,                     
+  RNAME,                    
+  SDATE,                    
+  REG_DT,                   
+  EDATE                     
+  ) VALUES (                
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  sysdate,                  
+  ?                         
+  )                         
+
+2019-07-17 17:45:05,105 DEBUG [main] pay.PayDao        (ReservationDao.java:58)     - 1.------------------
+2019-07-17 17:45:05,160 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:45:05,338 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@75828a0f
+2019-07-17 17:45:05,385 DEBUG [main] pay.PayDao        (ReservationDao.java:69)     - 2.------------------
+2019-07-17 17:45:05,385 DEBUG [main] pay.PayDao        (ReservationDao.java:70)     - paramreservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:45:05,386 DEBUG [main] pay.PayDao        (ReservationDao.java:71)     - 2.------------------
+2019-07-17 17:45:05,393 DEBUG [main] pay.PayDao        (ReservationDao.java:81)     - ------------------
+2019-07-17 17:45:05,393 DEBUG [main] pay.PayDao        (ReservationDao.java:82)     - SQLException:ORA-00001: 무결성 제약 조건(ORAI.PK_RESERVATION)에 위배됩니다
+
+2019-07-17 17:45:16,635 DEBUG [main] pay.PayDao        (ReservationDao.java:56)     - 1.------------------
+2019-07-17 17:45:16,637 DEBUG [main] pay.PayDao        (ReservationDao.java:57)     - 1query
+  INSERT INTO reservation ( 
+  NO,                       
+  RCODE,                    
+  PHONE,                    
+  PNUM,                     
+  RNAME,                    
+  SDATE,                    
+  REG_DT,                   
+  EDATE                     
+  ) VALUES (                
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  sysdate,                  
+  ?                         
+  )                         
+
+2019-07-17 17:45:16,637 DEBUG [main] pay.PayDao        (ReservationDao.java:58)     - 1.------------------
+2019-07-17 17:45:16,687 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:45:16,905 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@75828a0f
+2019-07-17 17:45:16,967 DEBUG [main] pay.PayDao        (ReservationDao.java:69)     - 2.------------------
+2019-07-17 17:45:16,967 DEBUG [main] pay.PayDao        (ReservationDao.java:70)     - paramreservationVO [no=1001-101-100, rcode=1001-101, phone=010-5641-1235, pnum=6, rname=김도연, sdate=19/07/30, reg_dt=, edate=19/07/31]
+2019-07-17 17:45:16,967 DEBUG [main] pay.PayDao        (ReservationDao.java:71)     - 2.------------------
+2019-07-17 17:45:16,972 DEBUG [main] pay.PayDao        (ReservationDao.java:75)     - 3.------------------
+2019-07-17 17:45:16,972 DEBUG [main] pay.PayDao        (ReservationDao.java:76)     - flag1
+2019-07-17 17:45:16,972 DEBUG [main] pay.PayDao        (ReservationDao.java:77)     - 3.------------------
+2019-07-17 17:45:32,740 DEBUG [main] pay.PayDao        (ReservationDao.java:56)     - 1.------------------
+2019-07-17 17:45:32,741 DEBUG [main] pay.PayDao        (ReservationDao.java:57)     - 1query
+  INSERT INTO reservation ( 
+  NO,                       
+  RCODE,                    
+  PHONE,                    
+  PNUM,                     
+  RNAME,                    
+  SDATE,                    
+  REG_DT,                   
+  EDATE                     
+  ) VALUES (                
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  ?,                        
+  sysdate,                  
+  ?                         
+  )                         
+
+2019-07-17 17:45:32,741 DEBUG [main] pay.PayDao        (ReservationDao.java:58)     - 1.------------------
+2019-07-17 17:45:32,794 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:45:33,019 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@75828a0f
+2019-07-17 17:45:33,085 DEBUG [main] pay.PayDao        (ReservationDao.java:69)     - 2.------------------
+2019-07-17 17:45:33,086 DEBUG [main] pay.PayDao        (ReservationDao.java:70)     - paramreservationVO [no=1001-101-100, rcode=1001-101, phone=010-5641-1235, pnum=6, rname=김도연, sdate=19/07/30, reg_dt=, edate=19/07/31]
+2019-07-17 17:45:33,086 DEBUG [main] pay.PayDao        (ReservationDao.java:71)     - 2.------------------
+2019-07-17 17:45:33,092 DEBUG [main] pay.PayDao        (ReservationDao.java:81)     - ------------------
+2019-07-17 17:45:33,092 DEBUG [main] pay.PayDao        (ReservationDao.java:82)     - SQLException:ORA-00001: 무결성 제약 조건(ORAI.PK_RESERVATION)에 위배됩니다
+
+2019-07-17 17:45:43,243 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:45)     - 1.jdbc 드라이버 로딩
+2019-07-17 17:45:43,435 DEBUG [main] cmn.ConnectionMaker (ConnectionMaker.java:53)     - 2.데이터베이스 커넥션 생성oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:45:43,436 DEBUG [main] pay.PayDao        (ReservationDao.java:114)     - 1-----------------------------
+2019-07-17 17:45:43,436 DEBUG [main] pay.PayDao        (ReservationDao.java:115)     - query:
+	DELETE FROM Reservation 
+	WHERE   no = ?   
+
+2019-07-17 17:45:43,439 DEBUG [main] pay.PayDao        (ReservationDao.java:116)     - 1-----------------------------
+2019-07-17 17:45:43,492 DEBUG [main] pay.PayDao        (ReservationDao.java:119)     - 2-----------------------------
+2019-07-17 17:45:43,492 DEBUG [main] pay.PayDao        (ReservationDao.java:120)     - param NO:
+reservationVO [no=1001-101-101, rcode=1001-102, phone=010-5644-1235, pnum=6, rname=정준, sdate=19/06/30, reg_dt=, edate=19/07/01]
+2019-07-17 17:45:43,493 DEBUG [main] pay.PayDao        (ReservationDao.java:121)     - 2-----------------------------
+2019-07-17 17:45:43,496 DEBUG [main] pay.PayDao        (ReservationDao.java:125)     - 3======================
+2019-07-17 17:45:43,496 DEBUG [main] pay.PayDao        (ReservationDao.java:126)     - transaction=oracle.jdbc.driver.T4CConnection@5f205aa
+2019-07-17 17:45:43,496 DEBUG [main] pay.PayDao        (ReservationDao.java:127)     - 3======================
+2019-07-17 17:45:43,500 DEBUG [main] reservation.ReservationController (ReservationController.java:33)     - 1

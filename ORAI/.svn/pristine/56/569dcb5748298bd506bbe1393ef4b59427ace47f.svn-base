@@ -1,0 +1,241 @@
+<%@page import="sights.SightsVO"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%> 
+<!doctype html>
+<html>
+  <head>
+    <title>쌍용부띠끄펜션</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400|Playfair+Display:400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="/ORAI/image/favicon (1).ico" >
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+ .wrap {position: absolute;left: 0;bottom: 40px;width: 138px;height: 92px;margin-left: -65px;text-align: left;overflow: hidden;font-size: 11px;font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;line-height: 1.5;}
+    .wrap * {padding: 0;margin: 0;}
+    .wrap .info {width: 138px;height: 92px;border-radius: 5px;border-bottom: 2px solid #ccc;border-right: 1px solid #ccc;overflow: hidden;background: #fff;}
+    .wrap .info:nth-child(1) {border: 0;box-shadow: 0px 1px 2px #888;}
+    .info .title {padding: 1px 0 0 5px;height: 20px;background: #eee;border-bottom: 1px solid #ddd;font-size: 12px;font-weight: bold;} // 타이틀바
+    .info .close {position: absolute;top: 10px;right: 10px;color: #888;width: 17px;height: 17px;background: url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');}
+    .info .close:hover {cursor: pointer;}
+    .info .body {position: relative;overflow: hidden;}
+    .info .desc {position: relative;margin: 13px 0 0 90px;height: 75px;}
+    .desc .ellipsis {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+    .desc .jibun {font-size: 11px;color: #888;margin-top: -2px;}
+    .info .img {position: absolute;top: 6px;left: 5px;width: 73px;height: 71px;border: 1px solid #ddd;color: #888;overflow: hidden;}
+    .info:after {content: '';position: absolute;margin-left: -12px;left: 50%;bottom: 0;width: 22px;height: 12px;background: url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+    .info .link {color: #5085BB;}
+    div.img { text-align: center; }
+    </style>
+
+    
+  </head>
+  <body>
+    
+    <header class="site-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4 site-logo" data-aos="fade"><a href="/ORAI/villa/index.jsp"><em>PENSION SSANGYOUNG</em></a></div>
+          <div class="col-8">
+
+
+            <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!-- END menu-toggle -->
+
+            <div class="site-navbar js-site-navbar">
+              <nav role="navigation">
+                <div class="container">
+                  <div class="row full-height align-items-center">
+                    <div class="col-md-6">
+                      <ul class="list-unstyled menu">
+                        <li><a id="location" href="/ORAI/villa/Location.jsp">LOCATION</a></li>
+                        <li class="active"><a id="sight"  href="/ORAI/villa/sightsctrl.do">SIGHT</a></li>
+                        <li><a id="reservation" href="/ORAI/villa/Reservation.jsp">RESERVATION</a></li>
+                        <li><a id="checkreservation" href="/ORAI/villa/ORAI/userRe.jsp">CHECK RESERVATION</a></li>
+                        <li><a href="/ORAI/villa/notice.do?work_div=do_retrieve">NOTICE</a></li>
+                        <li ><a href="/ORAI/villa/review.do?work_div=do_retrieve">REVIEW</a></li>                     
+                       </ul>
+                    </div>
+                    <div class="col-md-6 extra-info">
+                      <div class="row">
+                        <div class="col-md-6 mb-5">
+                          <h3>Contact Info</h3>
+                          <p> 강원도 속초시 대포동 543 </p>
+                          <p>ssangyounginfo@.naver.com</p>
+                          <p>010-4275-2036</p>
+                        </div>
+                        <div class="col-md-6 mb-5">
+	                          <h3>Account</h3>
+	                          <p>KEB하나 497-810008-08205</p>
+	                          <p>(예금주: 박지윤)</p>
+                      	 </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END head -->
+
+   <section class="site-hero overlay page-inside" style="background-image: url(img/hero_2.jpg)">
+      <div class="container">
+        <div class="row site-hero-inner justify-content-center align-items-center">
+          <div class="col-md-10 text-center">
+            <h1 class="heading" data-aos="fade-up">Sight</h1>
+            <p class="sub-heading mb-5" data-aos="fade-up" data-aos-delay="100">주변관광</p>
+          </div>
+        </div>
+        <!-- <a href="#" class="scroll-down">Scroll Down</a> -->
+      </div>
+    </section>
+    <!-- END section -->
+
+    
+
+
+    <div id="map" style=" margin-top:30px; margin-top:80px; margin-left:300px; width:1300px;height:500px; margin-bottom: 20px;" ></div>
+    	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=6255b93238c842e95304de08e0accb36&libraries=clusterer"></script>
+    	<script>
+ <% 
+ List<SightsVO> voList = (List<SightsVO>)request.getAttribute("list");
+ %>
+ var mapContainer = document.getElementById('map');// 지도를 표시할 div 
+ <%
+ if(voList!=null){%>
+ 	var mapOption = { 
+     center: new kakao.maps.LatLng(<%=voList.get(0).getLatitude()%>,<%=voList.get(0).getLongitude()%>), // 지도의 중심좌표
+     level: 7 // 지도의 확대 레벨
+ };
+ <%}%>
+var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+//마커를 표시할 위치와 title 객체 배열입니다 
+<%-- content : '<%=vo.getS_name()%>', --%>
+
+var positions = [
+                 
+<%
+if(voList!=null){
+for(SightsVO vo :voList){%>
+ {
+ 	 content:'<%=vo.getS_name() %>',
+ 	 location:'<%=vo.getLocation()%>',
+     latlng: new kakao.maps.LatLng(<%=vo.getS_latitude()%>,<%=vo.getS_longitude()%>)
+ }, 
+ <% }} %>
+
+];
+console.log(positions);
+
+//마커 이미지의 이미지 주소입니다
+var imageSrc = "http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png"; 
+ 
+for (var i = 0; i < positions.length; i ++) {
+	
+	var content = '<div class="wrap">' + 
+	'    <div class="info">' + 
+	'        <div class="title">' + positions[i].content + 
+	'            <div class="close" onclick="closeOverlay()" title="닫기"></div>' + 
+	'        </div>' + 
+	'        <div class="body">' +           
+	'                <div class="ellipsis">'+positions[i].location+'</div>' + 
+	'                <div><a href="http://www.kakaocorp.com/main" target="_blank" class="link">홈페이지</a></div>' + 
+	'        </div>' + 
+	'    </div>' +    
+	'</div>'; 
+ 
+ // 관광지 마커 이미지의 이미지 크기 입니다
+ var imageSize = new kakao.maps.Size(24, 35); 
+ 
+ // 마커 이미지를 생성합니다    
+ var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize); 
+ 
+ // 마커를 생성합니다
+ var marker = new kakao.maps.Marker({
+     map: map, // 마커를 표시할 지도
+     position: positions[i].latlng, // 마커를 표시할 위치
+     image : markerImage // 마커 이미지 
+ });
+ var overlay = new kakao.maps.CustomOverlay({
+	    content: content,
+	    
+	    map: map,
+	    position: marker.getPosition(),
+	  
+	});
+//마커를 클릭했을 때 커스텀 오버레이를 표시합니다
+ kakao.maps.event.addListener(marker, 'click', function() {
+     overlay.setMap(map);
+ });
+ // 커스텀 오버레이를 닫기 위해 호출되는 함수입니다 
+ function closeOverlay() {
+     overlay.setMap(null);  
+
+ 
+}
+//펜션 위치 마커
+var imageSrc2 = "/ORAI/image/Homemaker.png",
+	imageSize = new kakao.maps.Size(34, 35)
+var markerImage2 = new kakao.maps.MarkerImage(imageSrc2, imageSize); 
+var marker2 = new kakao.maps.Marker({
+    map: map, // 마커를 표시할 지도
+    position : mapOption.center,
+    image : markerImage2 // 마커 이미지 
+});
+
+   
+}
+
+ </script>
+ 
+ <div class="img"  > 
+	<img  src="/ORAI/villa/img/등반코스.PNG">
+	<img src="/ORAI/villa/img/등반코스2.PNG">
+   </div>
+
+   <!-- footer -->      
+    <footer class="section footer-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-3 mb-5 pr-md-5 contact-info">
+            <p><span class="d-block">Address:</span> <span> 강원도 속초시 대포동 543</span></p>
+            <p><span class="d-block">Phone:</span> <span> 010-4275-2036</span></p>
+            <p><span class="d-block">Email:</span> <span> ssangyounginfo@.naver.com</span></p>
+            <p><span class="d-block">Account:</span> <span>KEB하나  497-810008-08205 <br>(예금주: 박지윤) </span></p>
+          </div>
+        </div>
+        <div class="row bordertop pt-5">
+          <p class="col-md-6 text-left"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
+      </div>
+    </footer>
+<!-- //footer --> 
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- <script src="js/jquery.waypoints.min.js"></script> -->
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

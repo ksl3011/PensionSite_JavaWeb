@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="/WEB_EX01/js/jquery-1.12.4.js"></script>
+</head>
+<body>
+
+	<script>
+	function funcThisSize() {
+	    $("#innerWidth").html( window.innerWidth );
+	    $("#innerHeight").html( window.innerHeight );
+	    $("#outerWidth").html( window.outerWidth );
+	    $("#outerHeight").html( window.outerHeight );
+	}
+
+	$(function(){
+	    $(window).resize( funcThisSize );
+	    funcThisSize();
+	});
+	$(document).ready(function(){
+			
+			
+		});
+	</script>
+</body>
+</html>
