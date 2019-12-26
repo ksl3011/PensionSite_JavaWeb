@@ -1,5 +1,6 @@
 # PensionSite_JavaWeb
-팀 프로젝트 펜션예약사이트 입니다
+펜션예약사이트 입니다
+교육기간중 진행한 두번째 프로젝트이며, 첫 웹 프로젝트 입니다.
 
 SSANGYOUNG Pension
 
